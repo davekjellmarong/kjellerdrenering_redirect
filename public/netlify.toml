@@ -1,0 +1,7 @@
+# netlify.toml
+
+[[redirects]]
+  from = "/*"
+  to = "https://dindrenering.no/:splat"
+  status = 301
+  force = true
